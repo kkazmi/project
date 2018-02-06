@@ -1,0 +1,61 @@
+/***
+ *                                    ___           ___                         ___           ___           ___   
+ *                                   /\  \         /\__\                       /\  \         /\  \         /\  \  
+ *          ___         ___         |::\  \       /:/ _/_                     /::\  \       /::\  \       /::\  \ 
+ *         /\__\       /\__\        |:|:\  \     /:/ /\__\                   /:/\:\  \     /:/\:\  \     /:/\:\__\
+ *        /:/  /      /:/__/      __|:|\:\  \   /:/ /:/ _/_   ___     ___   /:/  \:\  \   /:/  \:\  \   /:/ /:/  /
+ *       /:/__/      /::\  \     /::::|_\:\__\ /:/_/:/ /\__\ /\  \   /\__\ /:/__/ \:\__\ /:/__/ \:\__\ /:/_/:/  / 
+ *      /::\  \      \/\:\  \__  \:\~~\  \/__/ \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / \:\  \ /:/  / \:\/:/  /  
+ *     /:/\:\  \      ~~\:\/\__\  \:\  \        \::/_/:/  /   \:\  /:/  /   \:\  /:/  /   \:\  /:/  /   \::/__/   
+ *     \/__\:\  \        \::/  /   \:\  \        \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\  \   
+ *          \:\__\       /:/  /     \:\__\        \::/  /       \::/  /       \::/  /       \::/  /       \:\__\  
+ *           \/__/       \/__/       \/__/         \/__/         \/__/         \/__/         \/__/         \/__/  
+ */
+
+body{
+	background: #ddd;
+}
+.containerimage{
+	width: 886px; 
+	left: 22px;
+}
+.carouselimage{
+	overflow: hidden; 
+	position: relative; 
+	z-index: 2; 
+	left: 0px; 
+	visibility: visible;
+}
+.plupload_filelist{
+	margin: 0px; 
+	padding: 0px; 
+	position: relative; 
+	list-style-type: none; 
+	z-index: 1; 
+	width: 20%; 
+	height: 100%; 
+	left: 0%;
+}
+drop-area{
+  width:100px;
+  height:25px;
+  border: 1px solid #999;
+  text-align: center;
+  padding:10px;
+  cursor:pointer;
+}
+#thumbnail img{
+  width:100px;
+  height:100px;
+  margin:5px;
+}
+canvas{
+  border:1px solid red;
+}
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
